@@ -457,6 +457,14 @@ input[name='attr_tab'][value='log'] ~ div.sheet-log {
   /*color: rgb(20, 90, 50);*/
   padding-bottom: 15px; }
 
+.sheet-rolltemplate-ou .sheet-resultn {
+  font-size: 1.5em;
+  font-family: 'Pictos';
+  text-align: center;
+  color: #0000ff;
+  /*color: rgb(20, 90, 50);*/
+  padding-bottom: 15px; }
+
 .sheet-rolltemplate-ou .sheet-resultg {
   font-size: 1.5em;
   font-family: 'Pictos';
