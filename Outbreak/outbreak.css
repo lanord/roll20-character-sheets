@@ -14,8 +14,8 @@ button {
   button:focus > h3, button:hover > h3, button:active > h3 {
     color: #bbb;
     text-shadow: 1px 1px 2px #000, 0 0 25px #bbb, 0 0 5px #bbb; }
-  button[type='roll'], button[type='action'] 
-{    background: #bbb;
+  button[type='roll'], button[type='action'] {
+    background: #bbb;
     border-bottom: 0.01em solid #666;
     border-bottom-right-radius: 0.01em;
     border-color: #b3b3b3;
