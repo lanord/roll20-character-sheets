@@ -251,7 +251,7 @@ div.sheet-dice-box {
     top: 0px;
     z-index: +1; }
   div.sheet-dice-box select {
-    width: 55%; }
+    width: 75%; }
   div.sheet-dice-box span[data-i18n='d5!'] {
     margin-right: -10%; }
 
@@ -415,11 +415,11 @@ input[name='attr_tab'][value='log'] ~ div.sheet-log {
   display: inline-block; }
 
 .sheet-rolltemplate-ou table {
-  width: 189px;
-  height: 186px;
+  width: 225px;
+  height: 180px;
   padding: 2px;
   background-color: #e6e6e6;
-  background-size: 189px 186px;
+  background-size: 225px 180px;
   background-repeat: no-repeat;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
@@ -427,10 +427,10 @@ input[name='attr_tab'][value='log'] ~ div.sheet-log {
 
 .sheet-rolltemplate-ou-small table {
   background-color: #e6e6e6;
-  width: 189px;
-  height: 186px;
-  padding: 4px;
-  background-size: 189px 186px;
+  width: 225px;
+  height: 180px;
+  padding: 2px;
+  background-size: 225px 180px;
   background-repeat: no-repeat;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
