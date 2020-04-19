@@ -12,10 +12,10 @@ button {
   button:before {
     display: none; }
   button:focus > h3, button:hover > h3, button:active > h3 {
-    color: #bbb;
-    text-shadow: 1px 1px 2px #000, 0 0 25px #bbb, 0 0 5px #bbb; }
+    color: #fff;
+    text-shadow: 1px 1px 2px #000, 0 0 25px #bbb, 0 0 5px #f1f1f1; }
   button[type='roll'], button[type='action'] {
-    background: #bbb;
+    background: #f1f1f1;
     border-bottom: 0.01em solid #666;
     border-bottom-right-radius: 0.01em;
     border-color: #b3b3b3;
@@ -25,12 +25,12 @@ button {
     margin: 0.2em !important;
     padding: 0.1em !important; }
   button[type='action'] {
-    background: #bbb; }
+    background: #f1f1f1; }
     button[type='action']:focus, button[type='action']:hover, button[type='action']:active {
       background-color: #00b300;
-      color: #bbb; }
+      color: #f1f1f1; }
   button[type='roll'] {
-    background: #bbb; }
+    background: #f1f1f1; }
     button[type='roll']:focus, button[type='roll']:hover, button[type='roll']:active {
       background-color: #00b300;
       color: #000; }
@@ -95,7 +95,7 @@ div.sheet-navigation {
       color: #000;
       cursor: pointer;
       display: inline-block;
-      font-size: 0.8em;
+      font-size: 1em;
       font-weight: bold;
       height: 20px;
       text-align: center;
@@ -103,8 +103,8 @@ div.sheet-navigation {
       margin-left: 2%;
       padding: 2% 1%; }
     div.sheet-navigation input:checked + span {
-      background-color: #dcdcdc;
-      border-bottom-color: #fff; }
+      background-color: #fff;
+      border-bottom-color: #000; }
   div.sheet-navigation input:nth-of-type(1), div.sheet-navigation span:nth-of-type(1) {
     grid-area: 1 / 1 / 1 / 1; }
   div.sheet-navigation input:nth-of-type(2), div.sheet-navigation span:nth-of-type(2) {
@@ -127,11 +127,11 @@ div.sheet-container {
   div.sheet-container .sheet-green-header {
     background-repeat: no-repeat;
     background-position: center top;
-    background-image: url("https://raw.githubusercontent.com/clevett/roll20-character-sheets/outbreakv1/Outbreak/src/img/greenheader.png"); }
+    background-image: url("https://raw.githubusercontent.com/lanord/roll20-character-sheets/master/Outbreak/src/img/greenheader.png"); }
   div.sheet-container .sheet-yellow-header {
     background-repeat: no-repeat;
     background-position: center top;
-    background-image: url("https://raw.githubusercontent.com/clevett/roll20-character-sheets/outbreakv1/Outbreak/src/img/yellowheader.png"); }
+    background-image: url("https://raw.githubusercontent.com/lanord/roll20-character-sheets/master/Outbreak/src/img/yellowheader.png"); }
   div.sheet-container div.sheet-main {
     margin: 1%;
     width: 98%; }
@@ -179,7 +179,7 @@ div.sheet-container {
           grid-template-columns: 4fr 1fr 4fr 1fr 4fr 1fr;
           text-align: center; }
           div.sheet-container div.sheet-main div.sheet-column div.sheet-spewbox div.sheet-points h3 {
-            font-size: 0.8em; }
+            font-size: 1em; }
           div.sheet-container div.sheet-main div.sheet-column div.sheet-spewbox div.sheet-points input {
             text-align: center; }
         div.sheet-container div.sheet-main div.sheet-column div.sheet-spewbox div.sheet-skills {
@@ -189,29 +189,32 @@ div.sheet-container {
           div.sheet-container div.sheet-main div.sheet-column div.sheet-spewbox div.sheet-skills h2[data-i18n='Basic Skills'] {
             line-height: inherit; }
           div.sheet-container div.sheet-main div.sheet-column div.sheet-spewbox div.sheet-skills button {
-            font-size: 0.8em; }
+            font-size: 1em; }
             div.sheet-container div.sheet-main div.sheet-column div.sheet-spewbox div.sheet-skills button > span {
               font-weight: bold; }
           div.sheet-container div.sheet-main div.sheet-column div.sheet-spewbox div.sheet-skills label {
             border: 0.15em solid #000; }
           div.sheet-container div.sheet-main div.sheet-column div.sheet-spewbox div.sheet-skills option[value*='strength'] {
-            background-image: url(https://raw.githubusercontent.com/clevett/roll20-character-sheets/outbreakv1/Outbreak/src/img/OU_Attributes_Strength_40x40.png); }
+            background-image: url(https://raw.githubusercontent.com/lanord/roll20-character-sheets/master/Outbreak/src/img/OU_Attributes_Strength_40x40.png); }
           div.sheet-container div.sheet-main div.sheet-column div.sheet-spewbox div.sheet-skills option[value*='perception'] {
-            background-image: url(https://raw.githubusercontent.com/clevett/roll20-character-sheets/outbreakv1/Outbreak/src/img/OU_Attributes_Perception_40x40.png); }
+            background-image: url(https://raw.githubusercontent.com/lanord/roll20-character-sheets/master/Outbreak/src/img/OU_Attributes_Perception_40x40.png); }
           div.sheet-container div.sheet-main div.sheet-column div.sheet-spewbox div.sheet-skills option[value*='empathy'] {
-            background-image: url(https://raw.githubusercontent.com/clevett/roll20-character-sheets/outbreakv1/Outbreak/src/img/OU_Attributes_Empathy_40x40.png); }
+            background-image: url(https://raw.githubusercontent.com/lanord/roll20-character-sheets/master/Outbreak/src/img/OU_Attributes_Empathy_40x40.png); }
           div.sheet-container div.sheet-main div.sheet-column div.sheet-spewbox div.sheet-skills option[value*='willpower'] {
-            background-image: url(https://raw.githubusercontent.com/clevett/roll20-character-sheets/outbreakv1/Outbreak/src/img/OU_Attributes_Willpower_40x40.png); }
+            background-image: url(https://raw.githubusercontent.com/lanord/roll20-character-sheets/master/Outbreak/src/img/OU_Attributes_Willpower_40x40.png); }
           div.sheet-container div.sheet-main div.sheet-column div.sheet-spewbox div.sheet-skills select {
-            font-size: 0.8em;
+            font-size: 1em;
             width: 100%; }
           div.sheet-container div.sheet-main div.sheet-column div.sheet-spewbox div.sheet-skills div.sheet-skill-column button {
-            height: 2em;
+            height: 1.5em;
+            font-size: 1em;
+            text-indent: 0.5em;
+            font-weight: bold;
             text-align: left; }
           div.sheet-container div.sheet-main div.sheet-column div.sheet-spewbox div.sheet-skills div.sheet-skill-column div.sheet-header {
             grid-template-columns: 1fr 15% 15%; }
             div.sheet-container div.sheet-main div.sheet-column div.sheet-spewbox div.sheet-skills div.sheet-skill-column div.sheet-header h3 {
-              font-size: 0.8em;
+              font-size: 1em;
               text-align: center; }
               div.sheet-container div.sheet-main div.sheet-column div.sheet-spewbox div.sheet-skills div.sheet-skill-column div.sheet-header h3:nth-of-type(1) {
                 grid-area: 1 / 2 / 1 / 2; }
@@ -258,7 +261,7 @@ div.sheet-dice-box {
 div.sheet-box {
   box-sizing: border-box;
   border: 10px solid transparent;
-  -webkit-border-image: url(https://raw.githubusercontent.com/clevett/roll20-character-sheets/outbreakv1/Outbreak/src/img/background.png) 18 18 repeat;
+  -webkit-border-image: url(https://raw.githubusercontent.com/lanord/roll20-character-sheets/master/Outbreak/src/img/background.png) 18 18 repeat;
   box-shadow: 3px 5px 2px #888888;
   float: left; }
 
@@ -285,7 +288,7 @@ div.sheet-health div.sheet-header {
 div.sheet-health div.sheet-body {
   grid-template-columns: 1em 2fr 1fr; }
   div.sheet-health div.sheet-body h3 {
-    font-size: 0.8em;
+    font-size: 1em;
     line-height: inherit;
     text-align: center; }
     div.sheet-health div.sheet-body h3[data-i18n='Health Points'] {
@@ -319,7 +322,7 @@ div.sheet-health div.sheet-viral input[type="checkbox"] {
   width: 19px; }
   div.sheet-health div.sheet-viral input[type="checkbox"]:checked {
     background: #ccff33;
-    content: url(https://raw.githubusercontent.com/clevett/roll20-character-sheets/outbreakv1/Outbreak/src/img/virus.png);
+    content: url(https://raw.githubusercontent.com/lanord/roll20-character-sheets/master/Outbreak/src/img/virus.png);
     border: none; }
     div.sheet-health div.sheet-viral input[type="checkbox"]:checked:after {
       -moz-transform: translate(-50%, -50%);
@@ -370,7 +373,7 @@ div.sheet-training-value div.sheet-red-kits {
 div.sheet-training-value div.sheet-green-kits {
   grid-template-columns: 1fr 1fr 1fr; }
   div.sheet-training-value div.sheet-green-kits h2 {
-    font-size: 0.8em; }
+    font-size: 1em; }
   div.sheet-training-value div.sheet-green-kits img {
     margin-left: 20%;
     margin-right: -5%; }
@@ -387,7 +390,7 @@ div.sheet-training-value div.sheet-kits {
 div.sheet-repeating-container {
   grid-template-columns: 4fr 2fr 2fr 10% 10% 1fr; }
   div.sheet-repeating-container h3 {
-    font-size: 0.8em;
+    font-size: 1em;
     text-align: center; }
   div.sheet-repeating-container button.sheet-dicefontd10 {
     font-weight: bold;
@@ -520,7 +523,7 @@ input[name='attr_tab'][value='log'] ~ div.sheet-log {
 
 .sheet-rolltemplate-ou-small .sheet-speed-five .inlinerollresult.fullcrit,
 .sheet-rolltemplate-ou .sheet-speed-five .inlinerollresult.fullcrit {
-  background: url("https://raw.githubusercontent.com/clevett/roll20-character-sheets/outbreakv1/Outbreak/src/img/HuntersIcon_speed_16pxW_x16pxH.jpg") bottom;
+  background: url("https://raw.githubusercontent.com/lanord/roll20-character-sheets/master/Outbreak/src/img/HuntersIcon_speed_16pxW_x16pxH.jpg") bottom;
   background-size: 19px 19px;
   background-repeat: no-repeat;
   z-index: +1;
@@ -529,7 +532,7 @@ input[name='attr_tab'][value='log'] ~ div.sheet-log {
 
 .sheet-rolltemplate-ou-small .sheet-damage-five .inlinerollresult.fullcrit,
 .sheet-rolltemplate-ou .sheet-damage-five .inlinerollresult.fullcrit {
-  background: url("https://raw.githubusercontent.com/clevett/roll20-character-sheets/outbreakv1/Outbreak/src/img/HuntersIcon_damage_16pxW_x16pxH.jpg") bottom;
+  background: url("https://raw.githubusercontent.com/lanord/roll20-character-sheets/master/Outbreak/src/img/HuntersIcon_damage_16pxW_x16pxH.jpg") bottom;
   background-size: 19px 19px;
   background-repeat: no-repeat;
   z-index: +1;
@@ -538,7 +541,7 @@ input[name='attr_tab'][value='log'] ~ div.sheet-log {
 
 .sheet-rolltemplate-ou-small .sheet-deplete-five .inlinerollresult.fullcrit,
 .sheet-rolltemplate-ou .sheet-deplete-five .inlinerollresult.fullcrit {
-  background: url("https://raw.githubusercontent.com/clevett/roll20-character-sheets/outbreakv1/Outbreak/src/img/HuntersIcon_depletion_16pxW_x16pxH.jpg") bottom;
+  background: url("https://raw.githubusercontent.com/lanord/roll20-character-sheets/master/Outbreak/src/img/HuntersIcon_depletion_16pxW_x16pxH.jpg") bottom;
   background-size: 19px 19px;
   background-repeat: no-repeat;
   z-index: +1;
